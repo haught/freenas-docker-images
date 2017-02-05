@@ -14,11 +14,11 @@ LABEL org.freenas.interactive="false" \
           { \
               \"name\": \"/etc/postgresql\", \
               \"descr\": \"Config space\" \
-          }, \
+          } \
       ]" \
       org.freenas.settings="[ \
           { \
-             \"env\":\"LANG\", \
+             \"env\": \"LANG\", \
              \"descr\": \"Language eg, en_US.utf8\", \
              \"optional\": true \ 
           }, \
@@ -31,5 +31,5 @@ LABEL org.freenas.interactive="false" \
               \"env\": \"PATH\", \
               \"descr\": \"Path string\", \
               \"optional\": true \
-          }, \
+          } \
       ]"
